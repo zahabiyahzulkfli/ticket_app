@@ -29,7 +29,10 @@ class HomeScreen extends StatelessWidget {
                       height: 50,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        color: Colors.red,
+                        image: const DecorationImage(
+                          fit: BoxFit.cover,
+                          image: AssetImage("assets/images/logo.png"),
+                        ),
                       ),
                     ),
                   ],
